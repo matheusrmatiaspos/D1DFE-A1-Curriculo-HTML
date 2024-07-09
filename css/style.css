@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+}
+
+body div{
+    margin-bottom: .6em;
+}
+
+body h1{
+    font-size: 1.7em;
+}
+
+.contentfix::after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.geral p{
+    font-size: 1em;
+}
+
+.geral a{
+    text-decoration: none;
+    color: black;
+}
+
+.perfil{
+    display: inline-block;
+    font-size: 1.25em;
+    float: left;
+}
+
+
+.perfil p img{
+    top: .2em;
+    position: relative;
+    display: inline-block;
+    margin-right: .5em;
+}
+
+.qrcodes{
+    display: inline-block;
+    float: right;
+
+}
+
+.qrcodes img{
+    margin: auto;
+    width: 4.2em;
+    display: block;
+}
+
+.qrcodes p{
+    text-align: center;
+    font-size: .7em;
+}
+
+.objetivo p {
+    text-align: justify;
+    font-size: 1em;
+    margin: 1em 0 0 5em ;
+    padding: 1em;
+    border-left: 1px black solid;
+}
+
+
+.experiencia div{
+    font-size: .9em;
+    text-align: justify;
+    display: inline-block;
+    margin-left: 5em;
+    padding: 1.5em;
+    border-left: 1px black solid;
+    
+}
+
+.experiencia div ul{
+    margin-top: .5em;
+}
+
+.experiencia div ul li{
+    list-style-type:  '\2713';
+}
+
+.formacoes{
+
+}
+
+.formacao p{
+    
+}
+
+.formacao div{
+    font-size: .9em;
+    text-align: justify;
+    display: inline-block;
+    margin-left: 5em;
+    padding: 1.5em;
+    border-left: 1px black solid;
+}
+
+.habilidade i{
+    display: block;
+}
+
+.habilidade p{
+    font-size: .9em;
+    height: .1em;
+    text-align: justify;
+    display: inline-block;
+    margin-left: 5em;
+    padding: 1.5em;
+    border-left: 1px black solid;
+}
+
+@media screen and (max-width: 620px){
+    body{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 460px){
+    body{
+        font-size: 0.7em;
+    }
+}
